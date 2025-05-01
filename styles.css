@@ -11,14 +11,14 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px 10px; /* Fix: match exactly what test expects */
+  gap: 10px 10px; 
   width: 100%;
-  max-width: 660px; /* 3 items * 200px + 2 gaps (2 * 10px) */
+  max-width: 660px; 
   padding: 10px;
 }
 
 .grid-item {
-  background-color: lightgray; /* RGB: 211, 211, 211 */
+  background-color: lightgray; 
   height: 150px;
   width: 200px;
   border-radius: 5px;
